@@ -11,6 +11,8 @@
 		04FB7D4B29EE29D100D04321 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D4A29EE29D100D04321 /* ContentView.swift */; };
 		04FB7D4D29EE29D300D04321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D4C29EE29D300D04321 /* Assets.xcassets */; };
 		04FB7D5029EE29D300D04321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB7D4F29EE29D300D04321 /* Preview Assets.xcassets */; };
+		04FB7D5729EE2F4300D04321 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D5629EE2F4300D04321 /* CircleImage.swift */; };
+		04FB7D5929EE304C00D04321 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB7D5829EE304C00D04321 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		04FB7D4A29EE29D100D04321 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04FB7D4C29EE29D300D04321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FB7D4F29EE29D300D04321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04FB7D5629EE2F4300D04321 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		04FB7D5829EE304C00D04321 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		04FB7D3C29EE29D100D04321 = {
 			isa = PBXGroup;
 			children = (
+				04FB7D5829EE304C00D04321 /* MapView.swift */,
+				04FB7D5629EE2F4300D04321 /* CircleImage.swift */,
 				04FB7D4729EE29D100D04321 /* AFL3-0706012110016-DarellAdityaSeanDarmayasa */,
 				04FB7D4629EE29D100D04321 /* Products */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FB7D4B29EE29D100D04321 /* ContentView.swift in Sources */,
+				04FB7D5929EE304C00D04321 /* MapView.swift in Sources */,
 				04FB7D4929EE29D100D04321 /* AFL3_0706012110016_DarellAdityaSeanDarmayasaApp.swift in Sources */,
+				04FB7D5729EE2F4300D04321 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
